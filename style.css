@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: rgb(240, 240, 240);
+  width: 100vw;
+  height: 70px;
+}
+
+.menu {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav1 h1,
+.nav2 h1,
+.nav3 h1,
+.nav4 h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.nav1 .texto,
+.nav2 .texto,
+.nav3 .texto,
+.nav4 .texto {
+  background-color: rgb(240, 240, 240);
+  width: calc(100% - 40%);
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid rgb(228, 228, 228);
+  color: black;
+  font-size: 20px;
+}
+
+.nav3 .texto {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav3 .texto img {
+  width: 400px;
+  height: 300px;
+}
+
+.divisao {
+  border: 1px solid rgba(0, 0, 0, 0.027);
+  margin: 5px 0px 5px 0px;
+}
+
+.nav4 .texto li {
+  list-style: none;
+}
+
+.nav4 .texto img {
+  height: 70px;
+  width: 70px;
+}
+#git {
+  height: 55px;
+}
+
+#gmail {
+  height: 55px;
+}
+
+.nav4 .texto ul {
+  display: flex;
+  justify-content: space-evenly;
+}
